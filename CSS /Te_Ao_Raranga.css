@@ -157,7 +157,31 @@ body {
   letter-spacing: 2%;
 }
 
+.divider {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: white;
+  letter-spacing: 2%;
+  max-width: 800px;
+  margin: 0 auto; 
+  animation: fade-inout 5s;
+}
 
+.divider::before,
+.divider::after {
+  content: '';
+  flex: 1;
+  border-bottom: 0.5px solid #ccc;
+}
+
+.divider::before {
+  margin-right: 30px;
+}
+
+.divider::after {
+  margin-left: 30px;
+}
 
 .nga_mihi_nui_statement {
   width: 70%;
