@@ -206,6 +206,10 @@ strong {
   line-height: 1.5;
 }
 
+.home_text i {
+  font-style: italic !important;
+}
+
 .event_details {
   width: 70%;
   padding: 1% 15%;
