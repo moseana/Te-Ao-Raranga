@@ -95,8 +95,42 @@ body {
 }
 
 
-
 /* Navbar styling ends*/
+
+
+/* For Bold Text - Universal accross all pages */
+
+strong {
+    font-weight: bold;
+}
+
+/* Home Page Styling Begins*/
+
+.home_text {
+ width: 70%;
+  padding: 3% 15%;
+  text-align:center;
+  color: white;
+  animation: fade-inout 5s;
+  line-height: 1.5;
+}
+
+.home_text i {
+  font-style: italic !important;
+}
+
+.event_details {
+  width: 70%;
+  padding: 1% 15%;
+  text-align: justify;
+  color: white;
+  animation: fade-inout 5s;
+  line-height: 1.5;
+}
+
+/* Home Page Styling Ends */
+
+/* Page Title for Kaupapa and Tangata Pages, artist statement is also used in both Tangata and Kaupapa */
 
 .Page-title {
 	text-align: center;
@@ -146,6 +180,8 @@ body {
   line-height: 1.5;
 }
 
+/* Tangata Titles is used for - Ngā mihi nui divider */
+
 .tangata_titles {
   text-align: left;
   font-size: 110%;
@@ -156,6 +192,8 @@ body {
   animation: fade-inout 5s;
   letter-spacing: 2%;
 }
+
+/* Divider is used for - Made in Collaboration With and line  */
 
 .divider {
   display: flex;
@@ -193,31 +231,8 @@ body {
   line-height: 1.5;
 }
 
-strong {
-    font-weight: bold;
-}
 
-.home_text {
- width: 70%;
-  padding: 3% 15%;
-  text-align:center;
-  color: white;
-  animation: fade-inout 5s;
-  line-height: 1.5;
-}
-
-.home_text i {
-  font-style: italic !important;
-}
-
-.event_details {
-  width: 70%;
-  padding: 1% 15%;
-  text-align: justify;
-  color: white;
-  animation: fade-inout 5s;
-  line-height: 1.5;
-}
+/* Media Styling for Kaupapa Page Begins */
 
 .Photogram_Image {
   width: 70%;
@@ -244,6 +259,9 @@ strong {
   color: white;
   animation: fade-inout 5s;
 }
+
+/* Media Styling for Kaupapa Page Ends */
+
 
 /* Footer styling begins */
 
@@ -296,5 +314,14 @@ strong {
   color: white;
 }
 
+/*More to Come - placeholder for Kaupapa content that will be uploaded closer to the date */
 
+.more_to_come {
+  width: 70%;
+  padding: 250px 15%;
+  text-align: center;
+  color: white;
+  animation: fade-inout 5s;
+  font-size: 1.2em;
+}
 	
