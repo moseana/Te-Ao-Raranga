@@ -1,12 +1,22 @@
 @charset "UTF-8";
 /* CSS Document */
 
-body {
-  font-family: Cambria, 'Hoefler Text', 'Liberation Serif', Times, 'Times New Roman', 'serif';
-	 margin: 0;
-	background-color: black;
+html, body {
+  min-height: 100%;
 }
 
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: Cambria, 'Hoefler Text', 'Liberation Serif', Times, 'Times New Roman', 'serif';
+  margin: 0;
+  background-color: black;
+}
+
+body > footer {
+  margin-top: auto;
+}
 
 @keyframes fade-inout {
 	0% {opacity: 0}
@@ -266,7 +276,7 @@ strong {
 
 .more_to_come {
   width: 70%;
-  padding: 700px 15%;
+  padding: 100 px 15%;
   text-align: center;
   color: white;
   animation: fade-inout 5s;
