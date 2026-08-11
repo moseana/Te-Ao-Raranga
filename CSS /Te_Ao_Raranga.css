@@ -297,7 +297,7 @@ strong {
 .site-footer {
   background-color: #131313;
   color: white;
-  padding: 2rem 5%;
+  padding: 2rem 4rem;
   margin-top: 4rem;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
