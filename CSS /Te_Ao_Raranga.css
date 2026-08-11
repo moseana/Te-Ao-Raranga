@@ -212,11 +212,14 @@ strong {
 .divider {
   display: flex;
   align-items: center;
+  justify-content: center;
   text-align: center;
   color: white;
   letter-spacing: 2%;
   max-width: 800px;
-  margin: 0 auto; 
+  width: 100%;
+  margin: 0 auto;
+  gap: 1rem;
   animation: fade-inout 5s;
 }
 
@@ -224,7 +227,9 @@ strong {
 .divider::after {
   content: '';
   flex: 1;
-  border-bottom: 1px solid rgb(255, 255, 255);
+  min-width: 0;
+  height: 1px;
+  background: rgba(255, 255, 255, 0.65);
 }
 
 .divider::before {
