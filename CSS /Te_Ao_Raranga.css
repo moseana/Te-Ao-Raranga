@@ -262,7 +262,17 @@ strong {
 
 /* Media Styling for Kaupapa Page Ends */
 
+/*More to Come - placeholder for Kaupapa content that will be uploaded closer to the date */
 
+.more_to_come {
+  width: 70%;
+  padding: 250px 15%;
+  text-align: center;
+  color: white;
+  animation: fade-inout 5s;
+  font-size: 1.2em;
+}
+	
 /* Footer styling begins */
 
 .site-footer {
@@ -314,14 +324,4 @@ strong {
   color: white;
 }
 
-/*More to Come - placeholder for Kaupapa content that will be uploaded closer to the date */
 
-.more_to_come {
-  width: 70%;
-  padding: 250px 15%;
-  text-align: center;
-  color: white;
-  animation: fade-inout 5s;
-  font-size: 1.2em;
-}
-	
