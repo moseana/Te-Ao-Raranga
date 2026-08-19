@@ -275,6 +275,7 @@ strong {
   text-align: center;
   color: white;
   animation: fade-inout 5s;
+  font-style: normal; 
 }
 
 
