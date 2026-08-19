@@ -118,6 +118,11 @@ strong {
     font-weight: bold;
 }
 
+.italic {
+    font-style: italic;
+
+}
+
 /* Home Page Styling Begins*/
 
 .home_text {
@@ -127,6 +132,7 @@ strong {
   color: white;
   animation: fade-inout 5s;
   line-height: 1.5;
+  font-size: 1.2em;
 }
 
 .home_text i {
@@ -140,6 +146,7 @@ strong {
   color: white;
   animation: fade-inout 5s;
   line-height: 1.5;
+  font-size: 1.2em;
 }
 
 /* Home Page Styling Ends */
@@ -190,7 +197,7 @@ strong {
   text-align: justify;
   color: white;
   animation: fade-inout 5s;
-  font-size: 1em;
+  font-size: 1.2em;
   line-height: 1.5;
 }
 
@@ -270,6 +277,7 @@ strong {
   font-style: italic;
 
 }
+
 
 .Movement_Sequence {
   width: 70%;
